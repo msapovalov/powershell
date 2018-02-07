@@ -1,0 +1,1 @@
+﻿Get-ADComputer -Properties * -Filter {serialNumber -like 'PC02RDT3'} | select -Property DNSHostName, Lastlogondate, info
